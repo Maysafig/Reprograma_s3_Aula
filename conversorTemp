@@ -1,1 +1,10 @@
 //Crie uma função que recebe uma temperatura em graus celsius retorna o valor convertido em Fahrenheit.
+//(celsius * 9/5) + 32
+
+function converteTemperatura(TemperaturaCelsius){
+    const temperaturaFahrenheirt = (TemperaturaCelsius * 9/5) + 32
+    return `A temperatura convertida é ${temperaturaFahrenheirt}F`
+}
+
+const resultado = converteTemperatura(38)
+console.log(resultado)
